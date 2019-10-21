@@ -14,7 +14,7 @@ SMS Template is using the same dynamic expression parser as out of the box Dynam
 
 Please check following screenshot as example.
 
-![Send SMS using Twilio and Microsoft Flow](https://pkoval.com/wp-content/uploads/2019/10/sendsmstwilio.png)
+![Send SMS using Twilio and Microsoft Flow](https://pkoval.com/wp-content/uploads/2019/10/sendsmstmp.png)
 
 Please learn more about how to create custom  tiles in Dynamics Marketing [here](https://docs.microsoft.com/en-us/dynamics365/marketing/developer/create-custom-channel) 
 
