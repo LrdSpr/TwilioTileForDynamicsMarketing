@@ -1,0 +1,25 @@
+
+/* format: <fileNamePrefix>::before */
+.SMSTileSymbol::before { /* your tile icon code */
+    content: "\E724";
+}
+
+/* format: #libraryElementCustom_<fileNamePrefix>  > span.lib-iconContainer */
+#libraryElementCustom_pk_TwilioSMS > span.lib-iconContainer { /*background color for your tile icon in the library panel*/
+    background-color: #c62a00;
+}
+
+/* format: .Custom_<fileNamePrefix> span.tileImageWrapper */
+.Custom_pk_TwilioSMS span.tileImageWrapper {
+    /*background color for your tile icon in the library panel*/ background-color: #c62a00;
+}
+
+/* format: .Custom_<fileNamePrefix>.tileOutline.selected */
+.Custom_pk_TwilioSMS.tileOutline.selected {
+    /*Color for border; Rendered when your tile is selected*/ border-color: #c62a00;
+}
+
+/* format: .Custom_<fileNamePrefix>.tileLeftBorder */
+.Custom_pk_TwilioSMS.tileLeftBorder {
+    /*Color for left border rendered on the tile when drawn on canvas*/ border-left-color: #c62a00;
+}

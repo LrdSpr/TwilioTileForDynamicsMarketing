@@ -1,0 +1,25 @@
+{
+  "RecentSetting": {
+    "_organizationURL": "https://m365x767031.api.crm4.dynamics.com",
+    "_recentPassword": "C+j/JMIdyR2zkil5LzWLfxOx/2BgZrk9Z/K97/bk/yU=",
+    "WindowsLoginName": "koval",
+    "RecentUsername": "admin@m365x767031.onmicrosoft.com",
+    "StoreRecentPassword": true
+  },
+  "UserSolutionSettings": [
+    {
+      "_organizationURL": "https://oerlikon-mmf-dev.api.crm4.dynamics.com",
+      "_recentPassword": "xD8a4Da4J2AfFubczdges7FUtCVJI2JNTZuxF1sC3dw=",
+      "WindowsLoginName": "koval",
+      "RecentUsername": "qa.test@oerlikongroup.onmicrosoft.com",
+      "StoreRecentPassword": true
+    },
+    {
+      "_organizationURL": "https://m365x767031.api.crm4.dynamics.com",
+      "_recentPassword": "C+j/JMIdyR2zkil5LzWLfxOx/2BgZrk9Z/K97/bk/yU=",
+      "WindowsLoginName": "koval",
+      "RecentUsername": "admin@m365x767031.onmicrosoft.com",
+      "StoreRecentPassword": true
+    }
+  ]
+}

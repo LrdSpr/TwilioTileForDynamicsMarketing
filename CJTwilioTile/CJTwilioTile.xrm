@@ -1,0 +1,1008 @@
+{
+  "_organizations": [
+    {
+      "DiscoveryURL": "https://disco.crm4.dynamics.com/xrmservices/2011/discovery.svc",
+      "OrganizationURL": "https://m365x767031.api.crm4.dynamics.com",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "9.1.0.4626",
+      "_projects": [
+        {
+          "Name": "CJTwilioTile.Plugins.csproj",
+          "NameWithoutExtension": "CJTwilioTile.Plugins",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 4,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": false,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "CJTwilioTile.Plugins.dll",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\CJTwilioTile.Plugins.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [
+              {
+                "Name": "SS.Crm.Linq",
+                "IncludeInILMerge": true
+              }
+            ],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [
+                    {
+                      "_images": [],
+                      "LogicalName": "sdkmessageprocessingstep",
+                      "SdkMessageFilterPrimaryObjectTypeCode": "msdyncrm_customerjourneycustomchannelactivity",
+                      "SdkMessageFilterSecondaryObjectTypeCode": "none",
+                      "Id": "63f743a1-7a63-e911-a96f-000d3ab98726",
+                      "Attributes": [
+                        {
+                          "Key": "invocationsource",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":40}}
+                        },
+                        {
+                          "Key": "customizationlevel",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "createdon",
+                          "Value": "2019-05-17T09:02:08Z"
+                        },
+                        {
+                          "Key": "statecode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "sdkmessagefilterid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"7cb705d2-c977-e911-a975-000d3a45ddd6"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "plugintypeid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"},"LogicalName":"sdkmessagefilter","Name":"CJTwilioTile.Plugins.CJTWilioProcessSMS","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9ebdbb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","Name":"Create","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": {"$type":"System.Boolean","$value":true}
+                        },
+                        {
+                          "Key": "name",
+                          "Value": "Create - Custom channel activity - Post-operation"
+                        },
+                        {
+                          "Key": "sdkmessageprocessingstepid",
+                          "Value": {"$type":"System.Guid","$value":"63f743a1-7a63-e911-a96f-000d3ab98726"}
+                        },
+                        {
+                          "Key": "solutionid",
+                          "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                        },
+                        {
+                          "Key": "ismanaged",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "ishidden",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":false},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "introducedversion",
+                          "Value": "1.0"
+                        },
+                        {
+                          "Key": "sdkmessageprocessingstepidunique",
+                          "Value": {"$type":"System.Guid","$value":"7a0c1b99-5e0b-4fe0-a42a-bacce5b36266"}
+                        },
+                        {
+                          "Key": "modifiedby",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"7c0d2f8c-5170-4c87-a5e2-fe6aa263c0b7"},"LogicalName":"systemuser","Name":"MOD Administrator","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "iscustomizable",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"iscustomizableanddeletable"}
+                        },
+                        {
+                          "Key": "modifiedon",
+                          "Value": "2019-05-17T09:37:57Z"
+                        },
+                        {
+                          "Key": "componentstate",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "eventhandler",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"},"LogicalName":"plugintype","Name":"CJTwilioTile.Plugins.CJTWilioProcessSMS","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "createdby",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"7c0d2f8c-5170-4c87-a5e2-fe6aa263c0b7"},"LogicalName":"systemuser","Name":"MOD Administrator","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "organizationid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"34696448-aceb-41d9-8138-1f67c6f4840e"},"LogicalName":"organization","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "canusereadonlyconnection",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        }
+                      ],
+                      "FormattedValues": [
+                        {
+                          "Key": "invocationsource",
+                          "Value": "Child"
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": "Post-operation"
+                        },
+                        {
+                          "Key": "customizationlevel",
+                          "Value": "1"
+                        },
+                        {
+                          "Key": "createdon",
+                          "Value": "17-5-2019 10:02"
+                        },
+                        {
+                          "Key": "statecode",
+                          "Value": "Enabled"
+                        },
+                        {
+                          "Key": "plugintypeid",
+                          "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": "1"
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": "Create"
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": "Yes"
+                        },
+                        {
+                          "Key": "ismanaged",
+                          "Value": "Unmanaged"
+                        },
+                        {
+                          "Key": "ishidden",
+                          "Value": "False"
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": "Server Only"
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": "Asynchronous"
+                        },
+                        {
+                          "Key": "modifiedby",
+                          "Value": "MOD Administrator"
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": "Enabled"
+                        },
+                        {
+                          "Key": "iscustomizable",
+                          "Value": "True"
+                        },
+                        {
+                          "Key": "modifiedon",
+                          "Value": "17-5-2019 10:02"
+                        },
+                        {
+                          "Key": "componentstate",
+                          "Value": "Published"
+                        },
+                        {
+                          "Key": "eventhandler",
+                          "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                        },
+                        {
+                          "Key": "createdby",
+                          "Value": "MOD Administrator"
+                        },
+                        {
+                          "Key": "canusereadonlyconnection",
+                          "Value": "No"
+                        }
+                      ],
+                      "RelatedEntities": [],
+                      "KeyAttributes": []
+                    }
+                  ],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 1,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "9a65c357-7a63-e911-a972-000d3aba0352",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"34696448-aceb-41d9-8138-1f67c6f4840e"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "CJTwilioTile.Plugins"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "f2902d105a97c5c3"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"7c0d2f8c-5170-4c87-a5e2-fe6aa263c0b7"},"LogicalName":"systemuser","Name":"MOD Administrator","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"cab5c98c-34b6-4add-8b97-338cf78430bb"},"LogicalName":"pluginassembly","Name":"CJTwilioTile.Plugins","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"f19b1fa8-27d5-4530-a32d-dbdd1a9c6fe8"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2019-05-17T09:02:07Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"7c0d2f8c-5170-4c87-a5e2-fe6aa263c0b7"},"LogicalName":"systemuser","Name":"MOD Administrator","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.7076.20821"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2019-05-17T09:02:07Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "cab5c98c-34b6-4add-8b97-338cf78430bb",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                },
+                {
+                  "Key": "name",
+                  "Value": "CJTwilioTile.Plugins"
+                },
+                {
+                  "Key": "modifiedon",
+                  "Value": "2019-05-17T09:36:09Z"
+                },
+                {
+                  "Key": "createdon",
+                  "Value": "2019-05-17T09:02:07Z"
+                },
+                {
+                  "Key": "publickeytoken",
+                  "Value": "f2902d105a97c5c3"
+                },
+                {
+                  "Key": "culture",
+                  "Value": "neutral"
+                },
+                {
+                  "Key": "pluginassemblyid",
+                  "Value": {"$type":"System.Guid","$value":"cab5c98c-34b6-4add-8b97-338cf78430bb"}
+                },
+                {
+                  "Key": "version",
+                  "Value": "1.0.7076.20821"
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "org6389d716",
+      "OrganizationDisplayName": "M365x767031",
+      "UserFriendlyName": "M365x767031",
+      "SelectedSolution": {
+        "UniqueName": "CustomerJourney",
+        "Id": "fc9ce31a-f82a-4f6c-aed1-ba416a96aebf",
+        "LogicalName": "solution",
+        "Name": "CJTwilioSMS"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    },
+    {
+      "DiscoveryURL": "https://disco.crm4.dynamics.com/xrmservices/2011/discovery.svc",
+      "OrganizationURL": "https://oerlikon-mmf-dev.api.crm4.dynamics.com",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "9.1.0.4041",
+      "_projects": [
+        {
+          "Name": "CJTwilioTile.Assets.csproj",
+          "NameWithoutExtension": "CJTwilioTile.Assets",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.CSSFile, SS.XrmToolkit.Common",
+              "ForceExecutionOfGulpTaskOnBulkUpdate": false,
+              "MinifyMode": 1,
+              "RelativeFilePath": "Web\\TwilioSMSCustomerJourneyDesignerTileConfig.css",
+              "Name": "TwilioSMSCustomerJourneyDesignerTileConfig.css",
+              "CrmId": "4a74d9aa-245a-e911-a96b-000d3aba03c4"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.XmlFile, SS.XrmToolkit.Common",
+              "ForceExecutionOfGulpTaskOnBulkUpdate": false,
+              "RelativeFilePath": "Web\\TwilioSMSCustomerJourneyDesignerTileConfig.xml",
+              "Name": "TwilioSMSCustomerJourneyDesignerTileConfig.xml",
+              "CrmId": "abd50eb7-245a-e911-a971-000d3aba0352"
+            }
+          ],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.WebsiteSettings, SS.XrmToolkit.Common"
+          }
+        },
+        {
+          "Name": "CJTwilioTile.Plugins.csproj",
+          "NameWithoutExtension": "CJTwilioTile.Plugins",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyBaseClass, SS.XrmToolkit.Common",
+              "Version": "4.0.0.0",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\BaseProxyClass.cs",
+              "Name": "BaseProxyClass.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "contact",
+              "MetadataId": "608861bc-50a4-4c5f-a02c-21fe1943e2cf",
+              "AutoRefreshOnChanges": true,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Contact.cs",
+              "Name": "Contact.cs",
+              "CrmId": "608861bc-50a4-4c5f-a02c-21fe1943e2cf"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "msdyncrm_customerjourneycustomchannelactivity",
+              "MetadataId": "a6cd41d0-6222-4489-bda6-573bb40c408e",
+              "AutoRefreshOnChanges": true,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\CustomChannelActivity.cs",
+              "Name": "CustomChannelActivity.cs",
+              "CrmId": "a6cd41d0-6222-4489-bda6-573bb40c408e"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "pk_smsaction",
+              "MetadataId": "ace4b519-4f63-e911-a975-000d3ab98e59",
+              "AutoRefreshOnChanges": true,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\TwilioSMSAction.cs",
+              "Name": "TwilioSMSAction.cs",
+              "CrmId": "ace4b519-4f63-e911-a975-000d3ab98e59"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "pk_twiliosmstemplate",
+              "MetadataId": "02df685d-2d5a-e911-a96b-000d3aba03c4",
+              "AutoRefreshOnChanges": true,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\TwilioSMSTemplate.cs",
+              "Name": "TwilioSMSTemplate.cs",
+              "CrmId": "02df685d-2d5a-e911-a96b-000d3aba03c4"
+            }
+          ],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": false,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "CJTwilioTile.Plugins.dll",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\CJTwilioTile.Plugins.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [
+              {
+                "Name": "SS.Crm.Linq",
+                "IncludeInILMerge": true
+              }
+            ],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [
+                    {
+                      "_images": [],
+                      "LogicalName": "sdkmessageprocessingstep",
+                      "SdkMessageFilterPrimaryObjectTypeCode": "msdyncrm_customerjourneycustomchannelactivity",
+                      "SdkMessageFilterSecondaryObjectTypeCode": "none",
+                      "Id": "63f743a1-7a63-e911-a96f-000d3ab98726",
+                      "Attributes": [
+                        {
+                          "Key": "plugintypeid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"},"LogicalName":"sdkmessagefilter","Name":"CJTwilioTile.Plugins.CJTWilioProcessSMS","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":40}}
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "name",
+                          "Value": "Create - Custom channel activity - Post-operation"
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9ebdbb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","Name":"Create","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "sdkmessagefilterid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"6016916b-2634-e911-a96a-000d3aba014b"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "customizationlevel",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "invocationsource",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "createdon",
+                          "Value": "2019-04-20T14:43:16Z"
+                        },
+                        {
+                          "Key": "statecode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "sdkmessageprocessingstepid",
+                          "Value": {"$type":"System.Guid","$value":"63f743a1-7a63-e911-a96f-000d3ab98726"}
+                        },
+                        {
+                          "Key": "solutionid",
+                          "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                        },
+                        {
+                          "Key": "ismanaged",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "ishidden",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":false},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+                        },
+                        {
+                          "Key": "introducedversion",
+                          "Value": "1.0"
+                        },
+                        {
+                          "Key": "sdkmessageprocessingstepidunique",
+                          "Value": {"$type":"System.Guid","$value":"662bd055-1386-4eec-a167-87b8b47ec643"}
+                        },
+                        {
+                          "Key": "modifiedby",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb6857cc-e0b7-e811-a94a-000d3aba09fa"},"LogicalName":"systemuser","Name":"QA Test","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "iscustomizable",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"iscustomizableanddeletable"}
+                        },
+                        {
+                          "Key": "modifiedon",
+                          "Value": "2019-04-21T19:09:43Z"
+                        },
+                        {
+                          "Key": "componentstate",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "eventhandler",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"},"LogicalName":"plugintype","Name":"CJTwilioTile.Plugins.CJTWilioProcessSMS","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "createdby",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb6857cc-e0b7-e811-a94a-000d3aba09fa"},"LogicalName":"systemuser","Name":"QA Test","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "organizationid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"4a9e45ef-d351-44df-9908-8a9d9df94ebc"},"LogicalName":"organization","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "canusereadonlyconnection",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        }
+                      ],
+                      "FormattedValues": [],
+                      "RelatedEntities": [],
+                      "KeyAttributes": []
+                    }
+                  ],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 1,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "9a65c357-7a63-e911-a972-000d3aba0352",
+                  "Attributes": [
+                    {
+                      "Key": "name",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "CJTwilioTile.Plugins.CJTWilioProcessSMS"
+                    },
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "pluginassemblyid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"cab5c98c-34b6-4add-8b97-338cf78430bb"},"LogicalName":"pluginassembly","Name":"CJTwilioTile.Plugins","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "organizationid",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"4a9e45ef-d351-44df-9908-8a9d9df94ebc"},"LogicalName":"organization","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "assemblyname",
+                      "Value": "CJTwilioTile.Plugins"
+                    },
+                    {
+                      "Key": "ismanaged",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "solutionid",
+                      "Value": {"$type":"System.Guid","$value":"fd140aae-4df4-11dd-bd17-0019b9312238"}
+                    },
+                    {
+                      "Key": "publickeytoken",
+                      "Value": "f2902d105a97c5c3"
+                    },
+                    {
+                      "Key": "plugintypeid",
+                      "Value": {"$type":"System.Guid","$value":"9a65c357-7a63-e911-a972-000d3aba0352"}
+                    },
+                    {
+                      "Key": "major",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "createdby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb6857cc-e0b7-e811-a94a-000d3aba09fa"},"LogicalName":"systemuser","Name":"QA Test","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "minor",
+                      "Value": {"$type":"System.Int32","$value":0}
+                    },
+                    {
+                      "Key": "plugintypeidunique",
+                      "Value": {"$type":"System.Guid","$value":"4aa8d98e-015c-45c7-a55e-c1f91c0857e0"}
+                    },
+                    {
+                      "Key": "componentstate",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                    },
+                    {
+                      "Key": "modifiedon",
+                      "Value": "2019-04-20T14:41:20Z"
+                    },
+                    {
+                      "Key": "culture",
+                      "Value": "neutral"
+                    },
+                    {
+                      "Key": "modifiedby",
+                      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb6857cc-e0b7-e811-a94a-000d3aba09fa"},"LogicalName":"systemuser","Name":"QA Test","KeyAttributes":[]}
+                    },
+                    {
+                      "Key": "version",
+                      "Value": "1.0.7050.38516"
+                    },
+                    {
+                      "Key": "isworkflowactivity",
+                      "Value": {"$type":"System.Boolean","$value":false}
+                    },
+                    {
+                      "Key": "createdon",
+                      "Value": "2019-04-20T14:41:20Z"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "cab5c98c-34b6-4add-8b97-338cf78430bb",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                },
+                {
+                  "Key": "name",
+                  "Value": "CJTwilioTile.Plugins"
+                },
+                {
+                  "Key": "version",
+                  "Value": "1.0.7050.38516"
+                },
+                {
+                  "Key": "publickeytoken",
+                  "Value": "f2902d105a97c5c3"
+                },
+                {
+                  "Key": "modifiedon",
+                  "Value": "2019-04-21T19:27:16Z"
+                },
+                {
+                  "Key": "createdon",
+                  "Value": "2019-04-20T10:15:34Z"
+                },
+                {
+                  "Key": "culture",
+                  "Value": "neutral"
+                },
+                {
+                  "Key": "pluginassemblyid",
+                  "Value": {"$type":"System.Guid","$value":"cab5c98c-34b6-4add-8b97-338cf78430bb"}
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "orgbf035fc2",
+      "OrganizationDisplayName": "Oerlikon Manmade Fibers PROD",
+      "UserFriendlyName": "Oerlikon Manmade Fibers DEV",
+      "SelectedSolution": {
+        "UniqueName": "CustomerJourney",
+        "Id": "9951956b-185a-e911-a96b-000d3aba03c4",
+        "LogicalName": "solution",
+        "Name": "CJTwilioSMS"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}
