@@ -16,5 +16,5 @@ Please check following screenshot as example.
 
 ![Send SMS using Twilio and Microsoft Flow](https://pkoval.com/wp-content/uploads/2019/10/sendsmstwilio.png)
 
-Please learn more about how to create custom  tiles in Dynamics Marketing [here](https://docs.microsoft.com/en-us/dynamics365/marketing/developer/create-custom-channel)
+Please learn more about how to create custom  tiles in Dynamics Marketing [here](https://docs.microsoft.com/en-us/dynamics365/marketing/developer/create-custom-channel) 
 
